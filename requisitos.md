@@ -325,6 +325,294 @@
 | **Entrega**     | v1             |
 
 
+| **R37**     | **Crear usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Creación de usuarios para las personas que quieran usar la página web, los usuarios tendrán:  - Usuario. - Correo electrónico. - Foto de perfil (Opcional). - Banner del perfil (Opcional). - Contraseña válida. - Descripción (Opcional).             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R38**     | **Eliminar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Da opción a las personas a eliminar sus usuarios cuando están logueados             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R39**     | **Módificar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar usuarios ya logueados como:  - Cambiar usuario. - Cambiar contraseña. - Cambiar foto de perfil. - Cambiar foto de banner. - Cambiar correo electrónico. - Cambiar descripción de perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Mostrar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear vista para el perfil del usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Validación del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios deberán ser validados para poder usar la página web             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Crear un servidor de correo propio**         |
+| --------------: | :------------------- |
+| **Descripción** | Levantar un servidor de correo en un sistema linux junto a un dns para poder tener un correo personalizado             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Validación por correo**         |
+| --------------: | :------------------- |
+| **Descripción** | Tendrán que validarse mediante un correo que se envía automáticamente al completar el registro             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Recuperar contraseña**         |
+| --------------: | :------------------- |
+| **Descripción** | En caso de olvido de contraseña el usuario recibirá un correo en el que podrá cambiarla.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Subida de canciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Subir canciones que se enlazan al usuario que las sube, las canciones tienen:  - Título. - Género musical. - Fecha de subida. - Privacidad (público, privado u oculto). - Permisos (permitir hacer remix o no). - Letra de la canción (Opcional). - Imagen de la canción.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Eliminar canciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Si la canción pertenece al usuario la puede eliminar.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Compartir canciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán crear urls de canciones para compartirlas             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Crear playlist**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios pueden crear una playlist en la que pueden meter canciones tanto suyas como de otros usuarios, las canciones tienen:  - Nombre. - Descripción (Opcional). - Fecha de creación. - Propietarios (uno o varios). - Privacidad (público, privado u oculto).             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Eliminar playlist**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios que tengan una playlist pueden eliminarla.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Modificar playlist**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir y quitar canciones, cambiar titulo, descripción y la privacidad             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Dar likes a canciones y playlist**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios son capaces de dar like a canciones y a playlist que no son suyas para poder añadirlas a su biblioteca.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Publicación de remixes**         |
+| --------------: | :------------------- |
+| **Descripción** | Cuando se suba una canción que sea remix de otra esta se enlazará con la original.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R53**     | **Página principal**         |
+| --------------: | :------------------- |
+| **Descripción** | La página principal tendrá una imagen general de las canciones más populares del momento, recomendaciones personalizadas dependiendo de los gustos del usuario y una zona pequeña que muestre parte de la biblioteca del usuario              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Playlist de me gustas**         |
+| --------------: | :------------------- |
+| **Descripción** | Una playlist con todas las canciones al que el usuario dio me gusta             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R55**     | **Página de biblioteca**         |
+| --------------: | :------------------- |
+| **Descripción** | La página de la biblioteca contendrá todas las playlist que el usuario dió me gusta mas las suyas propias, además de la playlist de me gusta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Buscador**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá filtrar y realizar búsquedas de playlist, canciones, comunidades y artistas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R57**     | **Notificaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios recibirán notificaciones cuando sus canciones o playlist reciban un me gusta o cuando reciba un seguidor nuevo             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Cola de reproducción**         |
+| --------------: | :------------------- |
+| **Descripción** | Se generará automáticamente con IA una cola automática basada en los gustos de el usuario y en los géneros de las canciones             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R59**     | **Reproductor de música**         |
+| --------------: | :------------------- |
+| **Descripción** | En la parte de abajo de la página aparecerá un reproductor de música cuando el usuario escuche una canción, este constará de botones para pausar, avanzar a la siguiente canción o retroceder de canción en la cola             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R60**     | **Añadir a la cola**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán añadir una canción a la cola de reproducción             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R61**     | **Página de comunidades**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir una pestaña en el que estén las comunidades más populares y las comunidades seguidas por el usuario             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R62**     | **Seguir una comunidad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán seguir una comunidad para que estar al tanto de su chat              |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R63**     | **Crear una comunidad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán crear comunidades con más usuarios en las que compartir canciones y opiniones, las comunidades tendrán:  - Nombre. - Descripción (Opcional). - Categorías. - Creador.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R64**     | **Eliminar una comunidad**         |
+| --------------: | :------------------- |
+| **Descripción** | El creador podrá eliminar la comunidad             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R65**     | **Modificar una comunidad**         |
+| --------------: | :------------------- |
+| **Descripción** | El creador podrá modificar la comunidad:  - Nombre. - Descripción. - Categorías.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R66**     | **Chat de comunidad**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán chatear con otros usuarios del la comunidad.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R67**     | **Compartir canciones en la comunidad**         |
+| --------------: | :------------------- |
+| **Descripción** | En los chats de las comunidades podrás compartir canciones y debatir con los otros usuarios sobre ellas             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R68**     | **Página sobre nosotros**         |
+| --------------: | :------------------- |
+| **Descripción** | Una página en la que muestre toda la información sobre la aplicación web             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -366,3 +654,35 @@
 | (**R34**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R35**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R36**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R37**) Crear usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R38**) Eliminar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R39**) Módificar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R40**) Mostrar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Validación del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Crear un servidor de correo propio | Importante | Técnico | Media | v1 | 
+| (**R43**) Validación por correo | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Recuperar contraseña | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Subida de canciones | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Eliminar canciones | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Compartir canciones | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Crear playlist | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Eliminar playlist | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Modificar playlist | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Dar likes a canciones y playlist | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Publicación de remixes | Importante | Funcional | Fácil | v1 | 
+| (**R53**) Página principal | Importante | Funcional | Fácil | v1 | 
+| (**R54**) Playlist de me gustas | Importante | Funcional | Fácil | v1 | 
+| (**R55**) Página de biblioteca | Importante | Funcional | Fácil | v1 | 
+| (**R56**) Buscador | Importante | Funcional | Fácil | v2 | 
+| (**R57**) Notificaciones | Importante | Funcional | Media | v2 | 
+| (**R58**) Cola de reproducción | Importante | Funcional | Difícil | v2 | 
+| (**R59**) Reproductor de música | Importante | Funcional | Media | v2 | 
+| (**R60**) Añadir a la cola | Importante | Funcional | Fácil | v2 | 
+| (**R61**) Página de comunidades | Opcional | Funcional | Fácil | v3 | 
+| (**R62**) Seguir una comunidad | Opcional | Funcional | Fácil | v3 | 
+| (**R63**) Crear una comunidad | Opcional | Funcional | Fácil | v3 | 
+| (**R64**) Eliminar una comunidad | Opcional | Funcional | Fácil | v3 | 
+| (**R65**) Modificar una comunidad | Opcional | Funcional | Fácil | v3 | 
+| (**R66**) Chat de comunidad | Opcional | Funcional | Media | v3 | 
+| (**R67**) Compartir canciones en la comunidad | Opcional | Funcional | Fácil | v3 | 
+| (**R68**) Página sobre nosotros | Importante | Funcional | Fácil | v3 | 
