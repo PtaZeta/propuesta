@@ -613,6 +613,33 @@
 | **Entrega**     | v3             |
 
 
+| **R69**     | **Radio**         |
+| --------------: | :------------------- |
+| **Descripción** | Habrá una pestaña de radio con varias radios internacionales y mundiales a elección del usuario             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R70**     | **Virtualización con docker-compose**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear un contenedor docker-compose con todos los servicios necesarios para la aplicación web (apache, laravel, servicio de correo, dns, etc)             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R71**     | **Utilización de Amazon Web Service**         |
+| --------------: | :------------------- |
+| **Descripción** | Utilizar Amazon Web Service para almacenar los datos de la aplicación web como: canciones, imagenes, videos, etc.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -686,3 +713,6 @@
 | (**R66**) Chat de comunidad | Opcional | Funcional | Media | v3 | 
 | (**R67**) Compartir canciones en la comunidad | Opcional | Funcional | Fácil | v3 | 
 | (**R68**) Página sobre nosotros | Importante | Funcional | Fácil | v3 | 
+| (**R69**) Radio | Importante | Funcional | Media | v3 | 
+| (**R70**) Virtualización con docker-compose | Importante | Técnico | Media | v3 | 
+| (**R71**) Utilización de Amazon Web Service | Importante | Técnico | Fácil | v3 | 
